@@ -1,0 +1,81 @@
+@media screen and (min-width: 768px) and (max-width: 1140px) {
+	
+	.wrapper{padding: 0 15px;}
+	.wrapper-big{padding: 0 15px;}
+	
+	.banner{min-height: 400px;}
+	
+	.banner .swiper-slide{min-height: 330px;}
+
+	.banner-slide{margin: 0 8.2%;}
+	.swiper-button-next{margin-top: 10px;right:-60px}
+	.swiper-button-prev{margin-top: 10px;left:-60px}
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	
+	.wrapper{padding: 0 15px;}
+	.wrapper-big{padding: 0 15px;}
+	.menu{display: none;}
+	.top-header{padding: 7px 0;}
+	.top-header .logo{float: none;width: 200px;}
+	.top-header .social table tr td{width: 20px;padding-left:3px;}
+	.top-header .social .phone{font-size: 14px;padding: 0;}
+	.top-header .social .phone a{font-size: 14px;}
+	.top-header .social .phone::before {background-size: 14px;padding: 8px 7px;top: 5px;left: -17px;}
+	.banner .wrapper-big{padding: 0;}
+	.banner .swiper-slide{min-height: 300px;}
+	.banner-slide{margin: 0 8.2%;}
+	.banner .swiper-button-next{margin-top: 0px;right:-28px;width: 18px;height: 24px;background-size: 18px 24px;padding: 0;}
+	.banner .swiper-button-prev{margin-top: 0px;left:-28px;width: 18px;height: 24px;background-size: 18px 24px;padding: 0;}
+	.banner-btn .banner-btn-size h2 {font-size: 20px;line-height: 20px;}
+	
+	.about-us .panel .left{float: none;width: 100%;padding-bottom: 20px;}
+	.about-us .panel .right{float: none;width: 100%;padding-left:0;}
+	
+	.gallery-panel .panel.first{width: 100%;}
+	.gallery-panel .panel.first .image{min-height: 250px;}
+	.gallery-panel .panel{float: none;width: 100%;}
+	
+	
+	.text-pnl .content .panel{float: none;width: 100%;}
+	.text-pnl .content {margin-right: 0px;}
+	.text-pnl .content .panel{padding-right: 0;padding-bottom:15px;}
+	.text-pnl .content .panel h2{font-size: 18px;}
+	
+	.testimonials-panel .left-cont{float: none;width: 100%;}
+	.testimonials-panel .right-img{float: none;margin: 0 auto;}
+	.testimonials-panel .swiper-button-prev{width: 18px;height: 24px;background-size: 18px 24px;}
+	.testimonials-panel .swiper-button-next{right: 10px;width: 18px;height: 24px;background-size: 18px 24px;}
+	
+	.post-sec .left{float: none;width: 100%;}
+	
+	
+	.team .panel {margin-left: 0px;}
+	.team .left {float: none;width: 100%;padding-left: 0px;padding-bottom: 15px;}
+	
+	
+	.subscriber .panel .left{float: none;width: 100%;padding-bottom: 10px;}
+	.subscriber .panel .right{float: none;width: 100%;}
+	.subscriber .panel .left h3{font-size: 24px;color: #ffffff;}
+	footer .footer-top .panel{float: none; width: 100%;}
+	footer .footer-top .panel ul li{font-size: 12px;text-align: right;padding-bottom: 10px;}
+	footer .footer-top .panel ul li a{font-size: 14px;}
+	footer .footer-bottom .footer-menu ul li{padding: 0 10px;}
+	
+	
+	
+}
+@media screen and (min-width: 640px) and (max-width: 767px) {
+	
+
+	
+	footer .footer-top .panel{float: left; width: 50%;}
+	footer .footer-top .panel ul li{font-size: 12px;}
+	footer .footer-top .panel ul li a{font-size: 14px;}
+	
+	
+	
+	
+}
+
